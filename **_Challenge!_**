@@ -1,0 +1,21 @@
+ **_Challenge!_** 
+
+In this challenge, your knowledge of working with arrays, and loops will be put to the test. 
+
+1. First press the run button.
+
+2. All of the HTML and CSS code has been built for you.  You have been asked to design a computerized bingo game. 
+
+   2a. Put even numbers from 0 - 50 in your bingo array. 
+
+   2b. Output this array to the h3 element within your HTM document. 
+
+   2c. Write the JavaScript code necessary that will: on click of the button, select a random number   
+
+
+
+    the bingo array, and print it out to the span element within your  HTML document.   
+
+    
+
+3. Test your code to make sure that it works, and then submit it to your instructor.
