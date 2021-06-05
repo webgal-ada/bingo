@@ -11,21 +11,13 @@ function changeLetter() {
   let randomLetter = Math.floor(Math.random() * letter.length);
   document.querySelector("h3").innerText = letter[randomLetter];
   console.log(letter[randomLetter]);
+
+
+
+  const randomNumb = Math.floor(Math.random() * 50) - 2;
+
+    document.querySelector("span").innerText = [randomNumb];
+    console.log(randomNumb);
+
 }
-let i = 0;
-while (i <= 50) {
-  console.log(i);
-  i += 2;
-  document.querySelector("span").innerText = [i];
-}
-
-//let randomNumb = Math.floor(Math.random() * 50) ;
-
-// document.querySelector('span').innerText = [randomNumb];
-
-btn.addEventListener("click", changeLetter());
-// let i = 0;
-// while (i <= 50) {
-//   console.log(i);
-//   i += 2;
-// }
+btn.addEventListener("click", changeLetter);
