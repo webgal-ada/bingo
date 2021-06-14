@@ -1,0 +1,14 @@
+main {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
+  width: 50vw;
+  background-color: pink;
+}
+div:nth-child(1){
+border: 2px solid red;
+text-align:center;
+width: 200px;
+}
