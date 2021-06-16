@@ -1,6 +1,6 @@
 const letter = ["B", "I", "G", "N", "O", "G", "B", "N"];
 const btn = document.querySelector("button");
- document.querySelector("h3").style.fontSize = "44px";
+ document.querySelector("h1").style.color="red";
 
 // b = new Array(2, 4, 6, 8, 10, 12),
 // i = new Array(14, 16, 18, 20, 22),
@@ -13,7 +13,7 @@ function changeLetter() {
 
   let randomLetter = Math.floor(Math.random() * letter.length);
   
-  document.querySelector("h3").innerText = letter[randomLetter];
+  document.querySelector("h1").innerText = letter[randomLetter];
 
   console.log(letter[randomLetter]);
 
