@@ -1,7 +1,14 @@
+:root {
+--ltBlue: #8ECAE6;
+--turqBlue: #219EBC;
+--dkBlue: #023047;
+--golden: #FB8500;
+}
 body {
   margin:0 auto;
   width: 200px;
-  border: 2px solid red;
+  border: 2px solid var(--dkBlue);
+  text-align: center;
 }
 main {
   
@@ -9,15 +16,13 @@ main {
   flex-direction:column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(127, 132, 161);
-  
-  
+  background-color: var(--turqBlue);
 }
 div:nth-child(1){
-  background-color: rgb(35, 29, 98);
+  background-color: var(--dkBlue);
   margin-top: 5px;
   margin-bottom: 10px;
-  border: 2px solid red;
+  border: 2px solid var(--ltBlue);
   text-align:center;
   height:120px;
   width: 120px;
@@ -25,8 +30,34 @@ div:nth-child(1){
 h1 {
   font-size: 56px;
 }
-div:nth-child(3){
+ div:nth-child(3){
   color: #FFF;
-  text-shadow: 4px 4px 4px #000;
-  font-size: 2rem;
+  text-align: center;
+  text-shadow: 4px 4px 4px var(--dkBlue);
+  margin-bottom: 20px;
 }
+
+.myButton {
+	box-shadow: 3px 4px 14px -3px var(--dkBlue);
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:#ededed;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#3a8a9e;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 9px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	background-color:#bab1ba;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+        
+
